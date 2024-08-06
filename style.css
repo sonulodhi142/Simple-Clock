@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#clockcontainer{
+    position: relative;
+    background-color: white;
+    height: 40vw;
+    width: 40vw;
+    background-image: url(WhatsApp\ Image\ 2024-05-16\ at\ 22.58.40_8d391ef2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+
+}
+
+#hour{
+    width: 2.4%;
+    height: 30%;
+    top: 20%;
+    left: 47.3%;
+    opacity: 1;
+    transform-origin: bottom;
+    background-color: black;
+
+}
+
+#minute{
+    width: 1.6%;
+    height: 36%;
+    top: 14%;
+    left: 48.5%;
+    opacity: 1;
+    transform-origin: bottom;
+    background-color: black;
+    
+    
+
+
+}
+
+#second{
+    width: 0.6%;
+    height: 40%;
+    top: 10%;
+    left: 49.5%;
+    opacity: 1;
+    transform-origin: bottom;
+    background-color: red;
+    
+
+}
+
+#display{
+
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    padding-left: 47%;
+    gap: 5px;
+}
+
